@@ -10,4 +10,4 @@ Se recomienda instalar usando anaconda con python==3.12.4.
 - luego instalar gempy
 ```  pip install gempy[base] ```
 - Adicionalmente, instalar los paquetes extras
-``` pip install scipy scikit-image```
+``` pip install scipy scikit-image notebook```
