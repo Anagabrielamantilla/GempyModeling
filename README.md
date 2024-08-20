@@ -7,6 +7,8 @@ Se recomienda instalar usando anaconda con python==3.12.4.
 
 - Crear un ambiente 
 ```conda create -n gempy2024 python==3.12.4```
+- Activar el ambiente
+```conda activate gempy2024```
 - luego instalar gempy
 ```  pip install gempy[base] ```
 - Adicionalmente, instalar los paquetes extras
