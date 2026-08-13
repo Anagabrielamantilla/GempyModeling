@@ -1,0 +1,8 @@
+gempy[base]
+gempy-viewer
+jupyter
+matplotlib
+numpy
+pyvista
+scikit-image
+scipy
