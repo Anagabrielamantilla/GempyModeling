@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="510" viewBox="0 0 1500 510" role="img" aria-labelledby="title desc">
+  <title id="title">Metodología de modelado geológico implícito con GemPy</title>
+  <desc id="desc">Cinco etapas desde observaciones geológicas hasta modelos volumétricos y propiedades físicas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05142f"/><stop offset="1" stop-color="#102e51"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2ce3f2"/><stop offset="1" stop-color="#1594c4"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd66b"/><stop offset="1" stop-color="#f08a24"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#000" flood-opacity=".5"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12z" fill="#55e4f2"/></marker>
+    <style>.title{font:700 39px Arial,sans-serif;fill:#fff}.sub{font:400 21px Arial,sans-serif;fill:#bfeaf4}.step{font:700 25px Arial,sans-serif;fill:#fff}.body{font:400 17px Arial,sans-serif;fill:#d8edf5}.num{font:800 24px Arial,sans-serif;fill:#07162d}</style>
+  </defs>
+  <rect width="1500" height="510" rx="30" fill="url(#bg)"/>
+  <path d="M0 410C260 310 390 500 660 390S1110 300 1500 410" fill="none" stroke="#2ad8ef" stroke-width="2" opacity=".2"/>
+  <text x="750" y="64" text-anchor="middle" class="title">DEL DATO GEOLÓGICO AL MODELO 3D</text>
+  <text x="750" y="99" text-anchor="middle" class="sub">flujo de trabajo reproducible para interpolación implícita con GemPy</text>
+  <g filter="url(#shadow)">
+    <g transform="translate(45 155)"><rect width="245" height="215" rx="22" fill="#0a2346" stroke="#3de1ef" stroke-width="3"/><circle cx="38" cy="40" r="23" fill="url(#cyan)"/><text x="38" y="49" text-anchor="middle" class="num">1</text><text x="72" y="49" class="step">OBSERVAR</text><circle cx="55" cy="103" r="7" fill="#ffd45e"/><circle cx="100" cy="83" r="7" fill="#39e1ed"/><circle cx="148" cy="119" r="7" fill="#ef6dac"/><path d="M65 150l28-45 27 34 31-55 35 66" fill="none" stroke="#fff" stroke-width="3"/><text x="24" y="187" class="body">contactos · orientaciones</text></g>
+    <g transform="translate(335 155)"><rect width="245" height="215" rx="22" fill="#0a2346" stroke="#8578ff" stroke-width="3"/><circle cx="38" cy="40" r="23" fill="#8f7dff"/><text x="38" y="49" text-anchor="middle" class="num">2</text><text x="72" y="49" class="step">ESTRUCTURAR</text><path d="M33 94h178M33 127h178M33 160h178" stroke="#9d91ff" stroke-width="12"/><path d="M107 79l22 98" stroke="#ffcb52" stroke-width="5"/><text x="28" y="197" class="body">series · fallas · orden</text></g>
+    <g transform="translate(625 155)"><rect width="245" height="215" rx="22" fill="#0a2346" stroke="#ffbf47" stroke-width="3"/><circle cx="38" cy="40" r="23" fill="url(#gold)"/><text x="38" y="49" text-anchor="middle" class="num">3</text><text x="72" y="49" class="step">INTERPOLAR</text><path d="M28 151C78 87 155 190 218 95M28 128C86 61 155 157 218 69" fill="none" stroke="#ffcc5d" stroke-width="5"/><g fill="#fff"><circle cx="49" cy="128" r="5"/><circle cx="113" cy="122" r="5"/><circle cx="180" cy="107" r="5"/></g><text x="26" y="197" class="body">campos escalares implícitos</text></g>
+    <g transform="translate(915 155)"><rect width="245" height="215" rx="22" fill="#0a2346" stroke="#36dfbd" stroke-width="3"/><circle cx="38" cy="40" r="23" fill="#3ee0bd"/><text x="38" y="49" text-anchor="middle" class="num">4</text><text x="72" y="49" class="step">CALCULAR</text><g stroke="#49d9c0" fill="none"><path d="M50 82h145v93H50z" stroke-width="3"/><path d="M50 113h145M50 144h145M86 82v93M122 82v93M158 82v93"/></g><g fill="#f075a8" opacity=".8"><rect x="87" y="114" width="35" height="29"/><rect x="123" y="145" width="35" height="29"/></g><text x="35" y="197" class="body">malla · unidades · volumen</text></g>
+    <g transform="translate(1205 155)"><rect width="245" height="215" rx="22" fill="#0a2346" stroke="#ef75ae" stroke-width="3"/><circle cx="38" cy="40" r="23" fill="#f27bae"/><text x="38" y="49" text-anchor="middle" class="num">5</text><text x="72" y="49" class="step">VALIDAR</text><path d="M32 153l42-48 33 21 42-59 58 71" fill="none" stroke="#f28eb9" stroke-width="5"/><path d="M32 165h177" stroke="#fff" opacity=".5"/><text x="26" y="197" class="body">secciones · 3D · exportación</text></g>
+  </g>
+  <g fill="none" stroke="#55e4f2" stroke-width="4" marker-end="url(#arrow)"><path d="M291 262h29"/><path d="M581 262h29"/><path d="M871 262h29"/><path d="M1161 262h29"/></g>
+  <text x="750" y="446" text-anchor="middle" class="sub">puntos + orientaciones → marco estructural → superficies → dominios → propiedades físicas</text>
+</svg>

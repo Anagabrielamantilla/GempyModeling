@@ -1,0 +1,15 @@
+name: gempy2024
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.4
+  - pip
+  - jupyter
+  - matplotlib
+  - numpy
+  - pyvista
+  - scikit-image
+  - scipy
+  - pip:
+      - gempy[base]
+      - gempy-viewer
